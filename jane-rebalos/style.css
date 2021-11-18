@@ -1,0 +1,28 @@
+:root{
+    --pixels: 5.5px;
+}
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000;
+    overflow: hidden;
+
+}
+p{
+    font-size: var(--pixels);
+    line-height: var(--pixels);
+    background-image: url("./jane-rebalos6.jpg");
+    text-align: justify;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.1);
+    background-size: 100% 100%;
+    width: 700px;
+    height: 100vh;
+}
